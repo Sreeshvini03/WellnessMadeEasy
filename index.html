@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Wellness Made Easy</title>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+<style>
+    * { margin:0; padding:0; box-sizing:border-box; font-family: 'Roboto', sans-serif; }
+    body { background:#fff; color:#333; }
+
+    a { text-decoration:none; }
+
+    header {
+        position: relative;
+        text-align: center;
+        padding: 3rem 1rem;
+        background: url('ish.jpg') no-repeat center center;
+        background-size: cover;
+        color: #fff;
+        min-height: 500px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    header::after {
+        content: '';
+        position: absolute;
+        top:0; left:0; right:0; bottom:0;
+        background: rgba(0,0,0,0.4);
+        z-index:1;
+    }
+
+    .logo {
+        position:absolute;
+        top:20px;
+        left:50%;
+        transform:translateX(-50%);
+        width:120px;
+        z-index:2;
+    }
+
+    .hero-text {
+        position: relative;
+        z-index:2;
+        text-align:center;
+        max-width:700px;
+        animation: fadeIn 2s ease-in-out;
+    }
+
+    .hero-text h1 {
+        font-size:2.5rem;
+        margin-bottom:1rem;
+        text-shadow: 2px 2px 8px rgba(0,0,0,0.5);
+    }
+
+    .hero-text p {
+        font-size:1.2rem;
+        margin-bottom:1.5rem;
+        line-height:1.6;
+    }
+
+    .price {
+        font-size:1.5rem;
+        margin: bottom 0.01em;
+        background:#ff6b6b;
+        color:white;
+        padding:0.7rem 1.2rem;
+        border-radius:5px;
+        animation: flash 1s infinite;
+        display:inline-block;
+    }
+
+    .btn {
+        display:inline-block;
+        padding:1rem 2rem;
+        background:#4CAF50;
+        color:white;
+        font-weight:bold;
+        border-radius:5px;
+        transition:0.3s;
+        font-size:1.1rem;
+    }
+
+    .btn:hover {
+        background:#45a049;
+        transform:scale(1.05);
+    }
+
+    section {
+        padding:3rem 1rem;
+        max-width:1000px;
+        margin:auto;
+    }
+
+    .section-white { background:#f9f9f9; color:#333; }
+    .section-green { background:#4CAF50; color:white; }
+
+    h2 { text-align:center; margin-bottom:1.5rem; font-size:2rem; }
+
+    ul { list-style:disc inside; font-size:1.1rem; line-height:1.7; }
+
+    @keyframes fadeIn {
+        from {opacity:0; transform:translateY(20px);}
+        to {opacity:1; transform:translateY(0);}
+    }
+
+    @keyframes flash {
+        0%, 100% { background:#ff6b6b; }
+        50% { background:#ff3b3b; }
+    }
+    
+   
+</style>
+</head>
+<body>
+
+<header>
+    <img src="logo.png" alt="Logo" class="logo"> <br><br>
+    <div class="hero-text">
+        <h1>Transform Your Health in 30 Days</h1>
+        <p>Get our complete 30-Day Meal Plan designed to help you shed weight in the healthiest way possible, while fueling your body with real, wholesome food.</p>
+        <!-- <div class="price"><p style="text-decoration: line-through;">₹500<p>₹199 Grab it before the offer ends!</div><br> -->
+            <div class="price">
+    <span style="text-decoration: line-through; margin-right: 10px;">₹500</span>
+    <span>₹199 Grab it before the offer ends!</span>
+</div> <br><br>
+
+        <a  href="https://sreeytrch03.myinstamojo.com/product/30-day-fat-burn-your-ultimate-weight-loss-pl" class="btn">BUY PDF NOW!</a>
+    </div>
+</header>
+
+<section class="section-white">
+    <h2>What’s Inside the 30-Day Meal Plan</h2>
+    <ul>
+        <li>Balanced <strong>Breakfast</strong> ideas to jumpstart your day</li>
+        <li>Delicious and nutritious <strong>Lunch</strong> meals</li>
+        <li>Light, energizing <strong>Snacks</strong> to keep cravings away</li>
+        <li>Wholesome <strong>Dinner</strong> recipes to nourish your body</li>
+    </ul>
+</section>
+
+<section class="section-green">
+    <h2>Why You Should Grab This Plan Now</h2>
+    <ul>
+        <li>Lose weight <strong>the healthy way</strong> — no crash diets or extreme restrictions</li>
+        <li>Build long-lasting <strong>healthy eating habits</strong></li>
+        <li>Improve energy, focus, mood, and overall <strong>well-being</strong></li>
+        <li>Perfect for <strong>everyone</strong> — not just those trying to lose weight!</li>
+        <li><strong>Offer ends soon</strong> — don’t miss out!</li>
+    </ul>
+</section>
+
+<section class="section-white">
+    <h2>Why Prioritizing Your Health Matters</h2>
+    <p style="font-size:1.2rem; text-align:center; line-height:1.8;">
+        Taking care of your health is not just about shedding pounds, it’s about <strong>feeling stronger, living longer, and loving your body</strong>.  
+        This plan helps you nourish your body, reset your habits, and feel your best, inside and out. &hearts;
+    </p>
+</section>
+
+<section class="section-green" style="text-align:center;">
+    <h2>Ready to Begin Your Journey?</h2>
+    <p style="font-size:1.2rem; margin-bottom:1.5rem;">
+        Start today. Your future self will thank you.  
+        Remember — this special offer won’t last forever!
+    </p>
+    <!-- <a href="#" class="btn">Download Now</a>
+      -->
+        <a style="background-color: #ff3b3b;" href="https://sreeytrch03.myinstamojo.com/product/30-day-fat-burn-your-ultimate-weight-loss-pl" class="btn">BUY PDF NOW!</a>
+    <br><br><br><br>
+    
+
+    <footer style="text-align: center; padding: 1rem; background-color: #f1f1f1; color: #888; font-size: 0.9rem;">
+        <p>For any queries or feedback please mail at sreeytrch@gmail.com</p>
+        <br><br>
+    © 2025 Wellness Made Easy. All rights reserved.
+</footer>
+
+</section>
+
+</body>
+</html>
